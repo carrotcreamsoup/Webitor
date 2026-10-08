@@ -1,5 +1,5 @@
 // Webitor
-// Copyright © 2015 Carl Hewett
+// Copyright Â© 2015 Carl Hewett
 
 // This program is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -123,8 +123,8 @@ function definitions()
 	m.buttonHeight = 20;
 	
 	// Constants
-	c.defaultCanvasWidth = 1000;
-	c.defaultCanvasHeight = 600;
+	c.defaultCanvasWidth = window.innerWidth;
+	c.defaultCanvasHeight = window.innerHeight;
 	c.amountOfLayers = 3;
 	
 	c.defaultLineWidth = 1;
@@ -188,7 +188,7 @@ function main()
 	// Other definitions
 	ed.currentTeam = c.neutralTeam;
 	
-	(function() // requestAnimationFrame polyfill by Erik Möller. Fixed by Paul Irish and Tino Zijdel, https://gist.github.com/paulirish/1579671, MIT license
+	(function() // requestAnimationFrame polyfill by Erik MÃ¶ller. Fixed by Paul Irish and Tino Zijdel, https://gist.github.com/paulirish/1579671, MIT license
 	{
 		var lastTime = 0;
 		var vendors = ['ms', 'moz', 'webkit', 'o'];
